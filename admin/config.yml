@@ -1,9 +1,9 @@
 backend:
   name: github
-  repo: alberto56/test1019
+  repo:  suresh-kumara-gist/test1019
   branch: main
   base_url: https://suresh-issue-82.dcycleproject.org
-  auth_endpoint: /auth/github/68bc42a0ed404407b8afb35c
+  auth_endpoint: /auth/github/68bda9d7ed404407b8afb79d
 
 media_folder: "media"   # where uploads are committed in the repo
 public_folder: "/media"
