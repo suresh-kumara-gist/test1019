@@ -1,19 +1,21 @@
 backend:
   name: github
-  repo:  suresh-kumara-gist/test1019
+  repo: suresh-kumara-gist/test1019
   branch: main
   base_url: https://suresh-issue-82.dcycleproject.org
-  auth_endpoint: /auth/github/68bda9d7ed404407b8afb79d
-
-media_folder: "media"   # where uploads are committed in the repo
-public_folder: "/media"
-
+  auth_endpoint: /auth/github/repo/6937e238e305332760b66b1b
+media_folder: media
+public_folder: /media
 collections:
-  - name: "pages"
-    label: "Pages"
-    folder: "content/pages"
+  - name: pages
+    label: Pages
+    folder: content/pages
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - { name: "title", label: "Title", widget: "string" }
-      - { name: "body", label: "Body", widget: "markdown" }
+      - name: title
+        label: Title
+        widget: string
+      - name: body
+        label: Body
+        widget: markdown
