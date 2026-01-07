@@ -3,7 +3,7 @@ backend:
   repo: suresh-kumara-gist/test1019
   branch: main
   base_url: https://suresh-issue-82.dcycleproject.org
-  auth_endpoint: /auth/github/repo/69557409df31b27a0c783267
+  auth_endpoint: /auth/github/repo/695e25fbcf43ed317a80e866
 media_folder: media
 public_folder: /media
 collections:
